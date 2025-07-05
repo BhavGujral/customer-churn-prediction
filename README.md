@@ -11,13 +11,13 @@ A web application built using Python and Flask to predict whether a customer is 
 ## How to Run
 
 1. Clone the repo:
-   git clone https://github.com/BhavGujral/customer-churn-prediction.git 
+   -git clone https://github.com/BhavGujral/customer-churn-prediction.git 
 2. Install dependencies:
-    python train_model.py
+   - python train_model.py
 3.Train the model:
-    python train_model.py
+    -python train_model.py
 4. Run the App:
-    python app.py
+    -python app.py
 5. Visit http://localhost:5000 in your browser.
 ## Features
 
