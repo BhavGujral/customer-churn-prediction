@@ -2,6 +2,8 @@
 
 A web application built using Python and Flask to predict whether a customer is likely to **churn** based on features such as age, usage frequency, contract type, etc.
 
+- Achieved **99.98% accuracy** on the test set using XGBoost.
+- Precision, recall, and F1-score were all **100%** for both classes.
 ## Features
 
 - Machine learning model trained with XGBoost
