@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Churn Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Enter Customer Details:</h2>
+        <form action="/predict" method="post">
+            <label>Age:</label><input type="text" name="Age"><br>
+            <label>Gender (0=F, 1=M):</label><input type="text" name="Gender"><br>
+            <label>Tenure:</label><input type="text" name="Tenure"><br>
+            <label>Usage Frequency:</label><input type="text" name="Usage Frequency"><br>
+            <label>Support Calls:</label><input type="text" name="Support Calls"><br>
+            <label>Payment Delay:</label><input type="text" name="Payment Delay"><br>
+            <label>Subscription Type (1=B, 2=S, 3=P):</label><input type="text" name="Subscription Type"><br>
+            <label>Contract Length (1=M, 2=Q, 3=A):</label><input type="text" name="Contract Length"><br>
+            <label>Total Spend:</label><input type="text" name="Total Spend"><br>
+            <label>Last Interaction:</label><input type="text" name="Last Interaction"><br>
+
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+</body>
+</html>

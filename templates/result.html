@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="result {% if 'Churn' in prediction_text %}red{% else %}green{% endif %}">
+            {{ prediction_text }}
+        </div>
+    </div>
+</body>
+</html>
