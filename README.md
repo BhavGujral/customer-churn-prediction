@@ -19,10 +19,11 @@ A web application built using Python and Flask to predict whether a customer is 
 4. Run the App:
     python app.py
 5. Visit http://localhost:5000 in your browser.
+## Features
 
-## Technologies Used
-Python
-Flask
-XGBoost
-Pandas
-HTML/CSS
+- Python
+- Flask
+- XGBoost
+- Pandas
+- HTML/CSS
+
